@@ -1,0 +1,3 @@
+library(dplyr)
+raster_pp <- raster::crop(raster_stack, cuenca) %>%
+  raster::mask(cuenca)

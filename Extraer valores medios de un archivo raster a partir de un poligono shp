@@ -1,0 +1,1 @@
+pr.media <- extract(raster_pp, cuenca, fun=mean)

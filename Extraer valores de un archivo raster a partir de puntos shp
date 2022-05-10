@@ -1,0 +1,2 @@
+library(raster)
+prc.estaciones <- extract(raster, Estaciones) # Estaciones es un archivo .shp

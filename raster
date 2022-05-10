@@ -1,0 +1,3 @@
+library(raster)
+raster_list <- list.files("E:/WorldClim_Data", pattern = ".tif", full.names = T)
+raster_stack <- stack(raster_list)
